@@ -9,6 +9,6 @@ const imgs =[
 const randomImg = imgs[Math.floor(Math.random() * imgs.length)];
 
 const bgImg = document.createElement("img")
-bgImg.src = `/img/${randomImg}`
+bgImg.src = `img/${randomImg}`
 
 document.body.prepend(bgImg);
